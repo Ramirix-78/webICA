@@ -128,7 +128,7 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #Carita_ICA {
-	fill: rgba(244,85,100,1);
+	fill: #55F470;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 2px;
 	stroke-linejoin: miter;
