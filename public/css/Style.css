@@ -1,0 +1,1468 @@
+.mediaViewInfo {
+	--web-view-name: Index;
+	--web-view-id: Index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	overflow-x: hidden;
+}
+#Index {
+	position: absolute;
+	width: 1920px;
+	height: 1246px;
+	background-color: rgba(124,178,238,1);
+	overflow: hidden;
+	--web-view-name: Index;
+	--web-view-id: Index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Azul {
+	fill: rgba(16,14,59,1);
+}
+.Azul {
+	position: absolute;
+	overflow: visible;
+	width: 600px;
+	height: 1246px;
+	left: 1160px;
+	top: 0px;
+}
+#Celeste {
+	fill: rgba(242,251,255,1);
+}
+.Celeste {
+	position: absolute;
+	overflow: visible;
+	width: 1002px;
+	height: 1246px;
+	left: 160px;
+	top: 0px;
+}
+#Buscar {
+	position: absolute;
+	width: 303px;
+	height: 60px;
+	left: 240px;
+	top: 80px;
+	overflow: visible;
+}
+#Rectngulo_3 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_3 {
+	position: absolute;
+	overflow: visible;
+	width: 303px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+.Buscar_un_lugar {
+	left: 61px;
+	top: 19px;
+	outline: none;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(16,14,59,1);
+}
+#Trazado_1 {
+	fill: rgba(146,146,146,1);
+}
+.Trazado_1 {
+	overflow: visible;
+	position: absolute;
+	width: 28.24px;
+	height: 28.997px;
+	left: 12.12px;
+	top: 16px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Todos_los_lugares {
+	position: absolute;
+	width: 233.545px;
+	height: 28px;
+	left: 575px;
+	top: 94px;
+	overflow: visible;
+}
+#Todos_los_lugares_n {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(32,43,92,1);
+}
+#Trazado_2 {
+	fill: rgba(32,43,92,1);
+}
+.Trazado_2 {
+	overflow: visible;
+	position: absolute;
+	width: 12.939px;
+	height: 10.563px;
+	left: 220.607px;
+	top: 11.387px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_ICA {
+	fill: rgba(244,85,100,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 1378px;
+	top: 279px;
+}
+#Lugares {
+	left: 1575px;
+	top: 94px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Pronostico {
+	position: absolute;
+	width: 303px;
+	height: 39px;
+	left: 240px;
+	top: 205px;
+	overflow: visible;
+}
+#Pronostico_del {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(32,43,92,1);
+	cursor: default;
+}
+#Aire {
+	left: 235px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(32,43,92,1);
+	cursor: default;
+}
+#Chimaltenango {
+	position: absolute;
+	width: 178px;
+	height: 210px;
+	left: 240px;
+	top: 294px;
+	overflow: visible;
+}
+#Antigua_G {
+	position: absolute;
+	width: 169px;
+	height: 199px;
+	left: 468px;
+	top: 305px;
+	overflow: visible;
+}
+#Baja_Verapaz {
+	position: absolute;
+	width: 169px;
+	height: 199px;
+	left: 906px;
+	top: 305px;
+	overflow: visible;
+}
+#Guatemala {
+	position: absolute;
+	width: 169px;
+	height: 199px;
+	left: 687px;
+	top: 305px;
+	overflow: visible;
+}
+#Chimaltenango__Chimaltenango {
+	left: 259px;
+	top: 519px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(32,43,92,1);
+}
+#Antigua_Guatemala__Sacatepquez {
+	left: 466px;
+	top: 519px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(32,43,92,1);
+}
+#Guatemala__Guatemala {
+	left: 721px;
+	top: 519px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(32,43,92,1);
+}
+#Cobn__Alta_Verapaz {
+	left: 937px;
+	top: 519px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(32,43,92,1);
+}
+#Semana_ {
+	left: 246px;
+	top: 629px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(32,43,92,1);
+}
+#Mes {
+	opacity: 0.5;
+	display: none;
+	left: 502px;
+	top: 629px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(32,43,92,1);
+}
+#Domingo {
+	left: 246px;
+	top: 714px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Lunes {
+	left: 246px;
+	top: 764px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Martes {
+	left: 246px;
+	top: 814px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Mircoles {
+	left: 246px;
+	top: 864px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Jueves {
+	left: 246px;
+	top: 914px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Viernes {
+	left: 246px;
+	top: 964px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#Sbado {
+	left: 246px;
+	top: 1014px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(16,14,59,1);
+}
+#ID3_Meses {
+	opacity: 0.5;
+	display: none;
+	left: 720px;
+	top: 629px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(32,43,92,1);
+}
+#ID6_Meses {
+	opacity: 0.5;
+	display: none;
+	left: 978px;
+	top: 629px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(32,43,92,1);
+}
+#Trazado_14 {
+	fill: rgba(32,43,92,1);
+}
+.Trazado_14 {
+	overflow: visible;
+	position: absolute;
+	width: 97.241px;
+	height: 34.49px;
+	transform: matrix(1,0,0,1,143.419,387.5744) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Trazado_15 {
+	fill: rgba(32,43,92,1);
+}
+.Trazado_15 {
+	overflow: visible;
+	position: absolute;
+	width: 97.241px;
+	height: 34.49px;
+	transform: matrix(1,0,0,1,1074.419,387.5744) rotate(-90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Rectngulo_9 {
+	opacity: 0.05;
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_9 {
+	position: absolute;
+	overflow: visible;
+	width: 541px;
+	height: 284px;
+	left: 1186px;
+	top: 698px;
+}
+#Rectngulo_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,0.478);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_10 {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 169px;
+	left: 1244px;
+	top: 756px;
+}
+#Rectngulo_11 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,0.478);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_11 {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 169px;
+	left: 1360px;
+	top: 756px;
+}
+#Rectngulo_12 {
+	fill: rgba(32,43,92,1);
+}
+.Rectngulo_12 {
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	height: 170px;
+	left: 1475px;
+	top: 737px;
+}
+#Rectngulo_13 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,0.478);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_13 {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 169px;
+	left: 1593px;
+	top: 756px;
+}
+#Elipse_1 {
+	fill: rgba(177,224,245,1);
+}
+.Elipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 53px;
+	left: 1263px;
+	top: 814px;
+}
+#Elipse_2 {
+	fill: rgba(177,224,245,1);
+}
+.Elipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 54px;
+	height: 53px;
+	left: 1378px;
+	top: 814px;
+}
+#Elipse_3 {
+	fill: rgba(16,14,59,1);
+}
+.Elipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 54px;
+	left: 1494px;
+	top: 795px;
+}
+#Elipse_4 {
+	fill: rgba(177,224,245,1);
+}
+.Elipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 53px;
+	left: 1612px;
+	top: 814px;
+}
+#ID10_AM {
+	left: 1254px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#ID12_AM {
+	left: 1370px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#ID4_PM {
+	left: 1608px;
+	top: 777px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#ID2_PM {
+	left: 1491px;
+	top: 758px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#ID12000 {
+	left: 1253px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#ID8000 {
+	left: 1375px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#ID32000 {
+	left: 1485px;
+	top: 861px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#ID15000 {
+	left: 1602px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Hoy {
+	left: 1424px;
+	top: 272px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Lun_3_Sep {
+	left: 1350px;
+	top: 328px;
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#fecha{
+	display: flex;
+    justify-content: space-around;
+}
+#Carita_triste {
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 1378px;
+	top: 279px;
+	overflow: visible;
+}
+#Trazado_37 {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_37 {
+	overflow: visible;
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_38 {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_38 {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 7.842px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_39 {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_39 {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 17.251px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_40 {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_40 {
+	overflow: visible;
+	position: absolute;
+	width: 14.116px;
+	height: 4.705px;
+	left: 7.841px;
+	top: 17.253px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Valor_ICA {
+	position: absolute;
+	width: 368px;
+	height: 134px;
+	left: 1276px;
+	top: 351px;
+	overflow: visible;
+}
+#ID32000_b {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 369px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 120px;
+	color: rgba(255,255,255,1);
+}
+#Chimaltenango_Chimaltenango {
+	left: 1320px;
+	top: 515px;
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Sensacin_trmica_32C_ {
+	left: 1261px;
+	top: 568px;
+	position: absolute;
+	overflow: visible;
+	width: 221px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+# {
+	left: 1494px;
+	top: 568px;
+	position: absolute;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Anochece_2015 {
+	left: 1515px;
+	top: 567px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#separador {
+	left: 1424px;
+	top: 563px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Nube_Izquierda {
+	position: absolute;
+	width: 261px;
+	height: 156.613px;
+	left: 1070px;
+	top: 315.997px;
+	overflow: visible;
+}
+#Nube_Derecha {
+	position: absolute;
+	width: 236.238px;
+	height: 141.755px;
+	left: 1609px;
+	top: 196.245px;
+	overflow: visible;
+}
+#Nube {
+	opacity: 0.05;
+	fill: rgba(255,255,255,1);
+}
+.Nube {
+	overflow: visible;
+	position: absolute;
+	width: 116.662px;
+	height: 70.003px;
+	left: 1643px;
+	top: 500.997px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_ICA_cc {
+	fill: rgba(244,202,85,1);
+	stroke: rgba(0,168,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA_cc {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1275px;
+	top: 826px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_ICA_cd {
+	fill: rgba(85,244,112,1);
+	stroke: rgba(0,168,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA_cd {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1390px;
+	top: 826px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_ICA_ce {
+	fill: rgba(244,85,100,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA_ce {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1506px;
+	top: 807px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_ICA_cf {
+	fill: rgba(245,180,0,1);
+	stroke: rgba(0,168,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA_cf {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 1624px;
+	top: 826px;
+}
+#grafica {
+	display: none;
+	position: absolute;
+	width: 694.5px;
+	height: 324.5px;
+	left: 380px;
+	top: 709.5px;
+	overflow: visible;
+}
+#Temperatura {
+	position: absolute;
+	width: 651px;
+	height: 341px;
+	left: 424px;
+	top: 714px;
+	overflow: visible;
+}
+#Temperatura_C_ {
+	left: 676px;
+	top: 629px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(32,43,92,1);
+}
+#Informacin {
+	position: absolute;
+	width: 178px;
+	height: 28px;
+	left: 1248px;
+	top: 94px;
+	overflow: visible;
+}
+#rect-Informacin{
+	width: 450px;
+}
+#Informacin:hover > .Trazado_30 {
+	-webkit-transform: rotate(180deg);
+ 	-moz-transform: rotate(180deg);
+ 	-ms-transform: rotate(180deg);
+ 	transform: rotate(180deg);
+ 	transition: .3s;
+}
+#Informacin_ck {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: default;
+	color: rgba(255,255,255,1);
+}
+.ocultar {
+	display: none;
+}
+#Rectngulo_4 {
+	fill: rgba(244,85,100,1);
+}
+.Rectngulo_4 {
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	height: 25px;
+	left: 153px;
+	top: 3px;
+}
+#Rectngulo_37 {
+	fill: rgba(16,14,59,.8);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_37 {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 140px;
+	left: 1px;
+	top: 38px;
+}
+.rango {
+	margin-top: 168px;
+}
+#Descripcin {
+	left: 122px;
+	top: 46px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#La_calidad_del_aire_es_danina {
+	left: 122px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Recomendaciones {
+	left: 122px;
+	top: 93px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#Los_ninios_y_adultos_activos {
+	left: 122px;
+	top: 115px;
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Carita_ICA_cr {
+	fill: rgba(244,85,100,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Carita_ICA_cr {
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 72px;
+	left: 25px;
+	top: 68px;
+}
+#Trazado_30 {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_30 {
+	overflow: visible;
+	position: absolute;
+	width: 13.616px;
+	height: 9.117px;
+	left: 158px;
+	top: 11px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_30:hover{
+	-webkit-transform: rotate(180deg);
+ 	-moz-transform: rotate(180deg);
+ 	-ms-transform: rotate(180deg);
+ 	transform: rotate(180deg);
+}
+#Carita_triste_ct {
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 1506px;
+	top: 807px;
+	overflow: visible;
+}
+#Trazado_37_cu {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_37_cu {
+	overflow: visible;
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_38_cv {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_38_cv {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 7.842px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_39_cw {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_39_cw {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 17.251px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_40_cx {
+	fill: rgba(255,255,255,1);
+}
+.Trazado_40_cx {
+	overflow: visible;
+	position: absolute;
+	width: 14.116px;
+	height: 4.705px;
+	left: 7.841px;
+	top: 17.253px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_feliz {
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 1390px;
+	top: 826px;
+	overflow: visible;
+}
+#Trazado_37_cz {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_37_cz {
+	overflow: visible;
+	position: absolute;
+	width: 29.798px;
+	height: 29.798px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_38_c {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_38_c {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 7.842px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_39_c {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_39_c {
+	overflow: visible;
+	position: absolute;
+	width: 4.705px;
+	height: 4.705px;
+	left: 17.251px;
+	top: 6.273px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_40_c {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_40_c {
+	overflow: visible;
+	position: absolute;
+	width: 14.116px;
+	height: 4.705px;
+	transform: translate(0px, -1px) matrix(1,0,0,1,7.8407,18.253) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Carita_preocupada {
+	position: absolute;
+	width: 29.8px;
+	height: 29.8px;
+	left: 1275px;
+	top: 826px;
+	overflow: visible;
+}
+#Trazado_44 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_44 {
+	overflow: visible;
+	position: absolute;
+	width: 29.8px;
+	height: 29.8px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_45 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_45 {
+	overflow: visible;
+	position: absolute;
+	width: 11.025px;
+	height: 1.225px;
+	left: 9.4px;
+	top: 17.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_46 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_46 {
+	overflow: visible;
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	left: 17.425px;
+	top: 7.7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_47 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_47 {
+	overflow: visible;
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	left: 8.375px;
+	top: 7.7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Carita_preocupada_c {
+	position: absolute;
+	width: 29.8px;
+	height: 29.8px;
+	left: 1624px;
+	top: 826px;
+	overflow: visible;
+}
+#Trazado_44_c {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_44_c {
+	overflow: visible;
+	position: absolute;
+	width: 29.8px;
+	height: 29.8px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Grupo_13 {
+	position: absolute;
+	width: 13.05px;
+	height: 11.125px;
+	left: 8px;
+	top: 9px;
+	overflow: visible;
+}
+#Trazado_48 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_48 {
+	overflow: visible;
+	position: absolute;
+	width: 11.025px;
+	height: 1.225px;
+	left: 1.025px;
+	top: 9.9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_49 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_49 {
+	overflow: visible;
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	left: 9.05px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Trazado_50 {
+	fill: rgba(0,168,255,1);
+}
+.Trazado_50 {
+	overflow: visible;
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.content-search {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 142px;
+    left: 0;
+    display: none;
+    color: white;
+    font-family: 'Arial';
+    z-index: 1;
+}
+
+.content-table {
+    width: 16%;
+    max-height: 200px;
+    height: auto;
+    background: rgba(16,14,59,.8);
+    margin-left: 240px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    border-radius: 17px;
+    font-family: 'Arial';
+    z-index: 1;
+}
+.content-table table{ 
+    width: 100%;
+}
+tbody tr td a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+tbody tr td a:hover {
+    background: rgba(16,14,59,.8);
+}
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	/*margin:auto;*/
+}
+
+.widget {
+	width: 180px;
+	margin: 5px;
+	/*margin:32px; */
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 18px;
+	height: 20px;
+}
+
+.fecha {
+	font-family:Arial;
+	text-align: center;
+	font-size:18px;
+	/*margin-bottom: 5px;*/
+	width: 100%;
+}
